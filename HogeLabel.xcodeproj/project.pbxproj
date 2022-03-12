@@ -11,6 +11,7 @@
 		F885E65627DC4B390034511A /* HogeLabel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F885E64B27DC4B390034511A /* HogeLabel.framework */; };
 		F885E65B27DC4B390034511A /* HogeLabelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F885E65A27DC4B390034511A /* HogeLabelTests.swift */; };
 		F885E65C27DC4B390034511A /* HogeLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = F885E64E27DC4B390034511A /* HogeLabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F885E66627DC4C840034511A /* HogeLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F885E66527DC4C840034511A /* HogeLabel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +30,7 @@
 		F885E64F27DC4B390034511A /* HogeLabel.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = HogeLabel.docc; sourceTree = "<group>"; };
 		F885E65527DC4B390034511A /* HogeLabelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HogeLabelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F885E65A27DC4B390034511A /* HogeLabelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HogeLabelTests.swift; sourceTree = "<group>"; };
+		F885E66527DC4C840034511A /* HogeLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HogeLabel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +75,7 @@
 			children = (
 				F885E64E27DC4B390034511A /* HogeLabel.h */,
 				F885E64F27DC4B390034511A /* HogeLabel.docc */,
+				F885E66527DC4C840034511A /* HogeLabel.swift */,
 			);
 			path = HogeLabel;
 			sourceTree = "<group>";
@@ -195,6 +198,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F885E65027DC4B390034511A /* HogeLabel.docc in Sources */,
+				F885E66627DC4C840034511A /* HogeLabel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -398,6 +402,7 @@
 		F885E66327DC4B390034511A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = Q7R5Q67FPX;
@@ -414,6 +419,7 @@
 		F885E66427DC4B390034511A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = Q7R5Q67FPX;
