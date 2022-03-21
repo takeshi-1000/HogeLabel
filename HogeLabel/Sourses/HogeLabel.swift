@@ -10,7 +10,7 @@ import UIKit
 
 public class HogeLabel: UILabel {
     
-    var hogeText: String = "" {
+    public var hogeText: String = "" {
         didSet {
             text = hogeText
         }
