@@ -12,7 +12,8 @@ Pod::Spec.new do |spec|
 
   spec.source       = { :git => "https://github.com/takeshi-1000/HogeLabel.git", :tag => "1.0.1" }
 
-  spec.source_files  = "Sources/HogeLabel.swift"
+  spec.source_files  = "HogeLabel/**/*.{h,m,swift}"
+  spec.swift_version = '5.0'
   
   spec.platform      = :ios, "14.0"
 

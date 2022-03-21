@@ -71,7 +71,7 @@
 		F885E64D27DC4B390034511A /* HogeLabel */ = {
 			isa = PBXGroup;
 			children = (
-				F885E66727DC4F420034511A /* Sources */,
+				F885E66727DC4F420034511A /* Sourses */,
 			);
 			path = HogeLabel;
 			sourceTree = "<group>";
@@ -84,13 +84,13 @@
 			path = HogeLabelTests;
 			sourceTree = "<group>";
 		};
-		F885E66727DC4F420034511A /* Sources */ = {
+		F885E66727DC4F420034511A /* Sourses */ = {
 			isa = PBXGroup;
 			children = (
 				F885E66527DC4C840034511A /* HogeLabel.swift */,
 				F885E64E27DC4B390034511A /* HogeLabel.h */,
 			);
-			path = Sources;
+			path = Sourses;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
