@@ -1,0 +1,5 @@
+#import <Foundation/Foundation.h>
+@interface PodsDummy_Pods_HogeLabelSampleProject_HogeLabelSampleProjectUITests : NSObject
+@end
+@implementation PodsDummy_Pods_HogeLabelSampleProject_HogeLabelSampleProjectUITests
+@end

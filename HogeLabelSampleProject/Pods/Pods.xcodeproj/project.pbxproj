@@ -1,0 +1,970 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		004AF98392E05300E6F6EC5BCD1EDDB6 /* Pods-HogeLabelSampleProjectTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F1C75643DCB54F9B848BA60F176EB499 /* Pods-HogeLabelSampleProjectTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		27373E211E3DC6CDC6C847F37309E386 /* Pods-HogeLabelSampleProject-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 21272ADC6015F74CCCDD11F7597476BD /* Pods-HogeLabelSampleProject-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2AF0044294537D99807A4431F3975C35 /* HogeLabel-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 261CA9F082613F94863CFD677EF8890B /* HogeLabel-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2F163D2540330B100462B66B649C1B23 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		43AD1F024D2270E906441FDE568DC132 /* Pods-HogeLabelSampleProjectTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 34B241900B6A437E56FC87549ABB61BD /* Pods-HogeLabelSampleProjectTests-dummy.m */; };
+		6D6512FEB1D4ADC32535BE5C97FFE8AE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		6F2CB54C7214DB7E4288F0D1A8007931 /* HogeLabel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E3C3CF790AE0912C55329F1CF63E33D /* HogeLabel-dummy.m */; };
+		910D4A60FC7616721C335E52F7DCD038 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		9D4E209C61B6D59E7C6C490665841D3E /* Pods-HogeLabelSampleProject-HogeLabelSampleProjectUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E8E01E3A58BF2EF7E807D84BB7E960B1 /* Pods-HogeLabelSampleProject-HogeLabelSampleProjectUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9E9535A94519E8707FE1A4689986A304 /* Pods-HogeLabelSampleProject-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DE670FE64A6960C38C0CB8CC71A2046 /* Pods-HogeLabelSampleProject-dummy.m */; };
+		A2C6CF5CE14BFB6CBB513C09CED6014A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		D829A6204C4908114282043C289D8FF5 /* HogeLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = 26CD1E1BB94BCBB8F5DBE84DD765C4F8 /* HogeLabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D8744B3664F19ACC5004BB5652C3B8C6 /* HogeLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54F744B387CA129E41EABBF1AA652F3D /* HogeLabel.swift */; };
+		F2E1F350B8AB897DEAAA95C571379B35 /* Pods-HogeLabelSampleProject-HogeLabelSampleProjectUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 56DE9078938A4014FA3DA442767BE522 /* Pods-HogeLabelSampleProject-HogeLabelSampleProjectUITests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9616B6083F03093CEB6FBFBDD2BB0FC0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D2E9821F2CFF110E9C99219D2DEC869E;
+			remoteInfo = HogeLabel;
+		};
+		DDDD5DF481762A391DAA5265B230CF27 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F77DBE2FE2929338A048B76A8638EC90;
+			remoteInfo = "Pods-HogeLabelSampleProject";
+		};
+		FF76419DA2B16A9FC331158F6431710D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D2E9821F2CFF110E9C99219D2DEC869E;
+			remoteInfo = HogeLabel;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0DE670FE64A6960C38C0CB8CC71A2046 /* Pods-HogeLabelSampleProject-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HogeLabelSampleProject-dummy.m"; sourceTree = "<group>"; };
+		146F3EB532E248EA508F9C5F6A4D6D18 /* Pods-HogeLabelSampleProject-HogeLabelSampleProjectUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HogeLabelSampleProject-HogeLabelSampleProjectUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1B9F2974C34353D990BB52AFF307DD0E /* Pods-HogeLabelSampleProject-HogeLabelSampleProjectUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HogeLabelSampleProject-HogeLabelSampleProjectUITests-frameworks.sh"; sourceTree = "<group>"; };
+		21272ADC6015F74CCCDD11F7597476BD /* Pods-HogeLabelSampleProject-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HogeLabelSampleProject-umbrella.h"; sourceTree = "<group>"; };
+		261CA9F082613F94863CFD677EF8890B /* HogeLabel-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HogeLabel-umbrella.h"; sourceTree = "<group>"; };
+		26CD1E1BB94BCBB8F5DBE84DD765C4F8 /* HogeLabel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HogeLabel.h; path = HogeLabel/Sourses/HogeLabel.h; sourceTree = "<group>"; };
+		34B241900B6A437E56FC87549ABB61BD /* Pods-HogeLabelSampleProjectTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HogeLabelSampleProjectTests-dummy.m"; sourceTree = "<group>"; };
+		45088B92B6B46FB7592A037A2D3A6896 /* Pods-HogeLabelSampleProjectTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HogeLabelSampleProjectTests.debug.xcconfig"; sourceTree = "<group>"; };
+		472F437E2D7BBEB1F228B1C6F13A8633 /* Pods-HogeLabelSampleProjectTests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-HogeLabelSampleProjectTests"; path = Pods_HogeLabelSampleProjectTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A9DABD4E56F434B6B6213DD6CD248A1 /* Pods-HogeLabelSampleProjectTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HogeLabelSampleProjectTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		4C246EFFF2E60200AD2A07B062F9C430 /* Pods-HogeLabelSampleProject */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-HogeLabelSampleProject"; path = Pods_HogeLabelSampleProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		54F744B387CA129E41EABBF1AA652F3D /* HogeLabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HogeLabel.swift; path = HogeLabel/Sourses/HogeLabel.swift; sourceTree = "<group>"; };
+		56DE9078938A4014FA3DA442767BE522 /* Pods-HogeLabelSampleProject-HogeLabelSampleProjectUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HogeLabelSampleProject-HogeLabelSampleProjectUITests-dummy.m"; sourceTree = "<group>"; };
+		5708D0A9F4424ABBB58AF4D87DAD18A4 /* Pods-HogeLabelSampleProjectTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HogeLabelSampleProjectTests.release.xcconfig"; sourceTree = "<group>"; };
+		5E3C3CF790AE0912C55329F1CF63E33D /* HogeLabel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HogeLabel-dummy.m"; sourceTree = "<group>"; };
+		63E5D897A1EA1E915BEE7C8FF27EDC2C /* Pods-HogeLabelSampleProject-HogeLabelSampleProjectUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HogeLabelSampleProject-HogeLabelSampleProjectUITests.release.xcconfig"; sourceTree = "<group>"; };
+		643149127F7E66690224D52757E052AE /* Pods-HogeLabelSampleProject-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HogeLabelSampleProject-Info.plist"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		78D45ABA6CF1590518A0F13D2627C9C9 /* Pods-HogeLabelSampleProjectTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HogeLabelSampleProjectTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7EEDEB5BEC5C9B469114FCABF4987C72 /* Pods-HogeLabelSampleProject-HogeLabelSampleProjectUITests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-HogeLabelSampleProject-HogeLabelSampleProjectUITests"; path = Pods_HogeLabelSampleProject_HogeLabelSampleProjectUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8081BB2D3E0B39972B81254F2CE607DA /* HogeLabel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HogeLabel.release.xcconfig; sourceTree = "<group>"; };
+		8560AB28FA04DC079CA199982D3A2D2C /* Pods-HogeLabelSampleProject-HogeLabelSampleProjectUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HogeLabelSampleProject-HogeLabelSampleProjectUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		91A7D12163A899FCB29903303331261A /* Pods-HogeLabelSampleProject.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HogeLabelSampleProject.modulemap"; sourceTree = "<group>"; };
+		9BE28FD99CC9221302941E1C65ACAA32 /* Pods-HogeLabelSampleProject-HogeLabelSampleProjectUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HogeLabelSampleProject-HogeLabelSampleProjectUITests.modulemap"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9FF8F6FCCB8C791CEC59C8B456982AB1 /* Pods-HogeLabelSampleProject-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HogeLabelSampleProject-acknowledgements.plist"; sourceTree = "<group>"; };
+		AD720B1471A2ED80B9BEDFCC83C1A589 /* HogeLabel-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "HogeLabel-Info.plist"; sourceTree = "<group>"; };
+		BD22AB2345CF5067F805502E4C0C909A /* Pods-HogeLabelSampleProjectTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HogeLabelSampleProjectTests.modulemap"; sourceTree = "<group>"; };
+		BE535800F24D0C6623A521A36920F632 /* Pods-HogeLabelSampleProject-HogeLabelSampleProjectUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HogeLabelSampleProject-HogeLabelSampleProjectUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		BFBF3C8A1F623B6A4C0BEF878680DB46 /* Pods-HogeLabelSampleProject-HogeLabelSampleProjectUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HogeLabelSampleProject-HogeLabelSampleProjectUITests-Info.plist"; sourceTree = "<group>"; };
+		C2649F2E6C88658F2663684D466E77EC /* Pods-HogeLabelSampleProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HogeLabelSampleProject.release.xcconfig"; sourceTree = "<group>"; };
+		CA6BFC87F3CEEC81CEEA38E75FC1F037 /* HogeLabel-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HogeLabel-prefix.pch"; sourceTree = "<group>"; };
+		D46724D5F000CA06E0AC2635F00D73F8 /* Pods-HogeLabelSampleProject-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HogeLabelSampleProject-frameworks.sh"; sourceTree = "<group>"; };
+		E0CE27E6D5E4E786938794E41B30D7A8 /* Pods-HogeLabelSampleProjectTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HogeLabelSampleProjectTests-Info.plist"; sourceTree = "<group>"; };
+		E7B44DC9FA1051D7E60A09975B696C63 /* Pods-HogeLabelSampleProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HogeLabelSampleProject.debug.xcconfig"; sourceTree = "<group>"; };
+		E8E01E3A58BF2EF7E807D84BB7E960B1 /* Pods-HogeLabelSampleProject-HogeLabelSampleProjectUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HogeLabelSampleProject-HogeLabelSampleProjectUITests-umbrella.h"; sourceTree = "<group>"; };
+		EA3B516D1815384618EB0F26D4818829 /* HogeLabel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HogeLabel.debug.xcconfig; sourceTree = "<group>"; };
+		EEB0FEED57EFB6BD341F744BB615026F /* Pods-HogeLabelSampleProject-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HogeLabelSampleProject-acknowledgements.markdown"; sourceTree = "<group>"; };
+		EEBA28FF2E468CB74EBFF288A70E4FAD /* HogeLabel */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = HogeLabel; path = HogeLabel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1C75643DCB54F9B848BA60F176EB499 /* Pods-HogeLabelSampleProjectTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HogeLabelSampleProjectTests-umbrella.h"; sourceTree = "<group>"; };
+		F82577CDF85198D0A0A0ABABA604160C /* HogeLabel.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = HogeLabel.modulemap; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2B02B41FCFE6970EE215DC7F4CDC1EB3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2C6CF5CE14BFB6CBB513C09CED6014A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		729AF94D2F113B19646344443AB75C60 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				910D4A60FC7616721C335E52F7DCD038 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5A66FF8FDC53C3A54A6C4FE4A075C6D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D6512FEB1D4ADC32535BE5C97FFE8AE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8E072742336805486CACF5B8AC16742 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F163D2540330B100462B66B649C1B23 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		5D55F96486DA4F2D8A6D0C582515E0B9 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CC2AEC70F62F0CC915D5A49239EFEDBA /* Pods-HogeLabelSampleProject */,
+				82A21AEB0598B9EB1A1EF7F0B2B45636 /* Pods-HogeLabelSampleProject-HogeLabelSampleProjectUITests */,
+				AFD213363F448234E09828320AA46AE9 /* Pods-HogeLabelSampleProjectTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		8246CFB57F069CE4DEEB63B0DBFE1BD1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EEBA28FF2E468CB74EBFF288A70E4FAD /* HogeLabel */,
+				4C246EFFF2E60200AD2A07B062F9C430 /* Pods-HogeLabelSampleProject */,
+				7EEDEB5BEC5C9B469114FCABF4987C72 /* Pods-HogeLabelSampleProject-HogeLabelSampleProjectUITests */,
+				472F437E2D7BBEB1F228B1C6F13A8633 /* Pods-HogeLabelSampleProjectTests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		82A21AEB0598B9EB1A1EF7F0B2B45636 /* Pods-HogeLabelSampleProject-HogeLabelSampleProjectUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9BE28FD99CC9221302941E1C65ACAA32 /* Pods-HogeLabelSampleProject-HogeLabelSampleProjectUITests.modulemap */,
+				146F3EB532E248EA508F9C5F6A4D6D18 /* Pods-HogeLabelSampleProject-HogeLabelSampleProjectUITests-acknowledgements.markdown */,
+				BE535800F24D0C6623A521A36920F632 /* Pods-HogeLabelSampleProject-HogeLabelSampleProjectUITests-acknowledgements.plist */,
+				56DE9078938A4014FA3DA442767BE522 /* Pods-HogeLabelSampleProject-HogeLabelSampleProjectUITests-dummy.m */,
+				1B9F2974C34353D990BB52AFF307DD0E /* Pods-HogeLabelSampleProject-HogeLabelSampleProjectUITests-frameworks.sh */,
+				BFBF3C8A1F623B6A4C0BEF878680DB46 /* Pods-HogeLabelSampleProject-HogeLabelSampleProjectUITests-Info.plist */,
+				E8E01E3A58BF2EF7E807D84BB7E960B1 /* Pods-HogeLabelSampleProject-HogeLabelSampleProjectUITests-umbrella.h */,
+				8560AB28FA04DC079CA199982D3A2D2C /* Pods-HogeLabelSampleProject-HogeLabelSampleProjectUITests.debug.xcconfig */,
+				63E5D897A1EA1E915BEE7C8FF27EDC2C /* Pods-HogeLabelSampleProject-HogeLabelSampleProjectUITests.release.xcconfig */,
+			);
+			name = "Pods-HogeLabelSampleProject-HogeLabelSampleProjectUITests";
+			path = "Target Support Files/Pods-HogeLabelSampleProject-HogeLabelSampleProjectUITests";
+			sourceTree = "<group>";
+		};
+		AFD213363F448234E09828320AA46AE9 /* Pods-HogeLabelSampleProjectTests */ = {
+			isa = PBXGroup;
+			children = (
+				BD22AB2345CF5067F805502E4C0C909A /* Pods-HogeLabelSampleProjectTests.modulemap */,
+				78D45ABA6CF1590518A0F13D2627C9C9 /* Pods-HogeLabelSampleProjectTests-acknowledgements.markdown */,
+				4A9DABD4E56F434B6B6213DD6CD248A1 /* Pods-HogeLabelSampleProjectTests-acknowledgements.plist */,
+				34B241900B6A437E56FC87549ABB61BD /* Pods-HogeLabelSampleProjectTests-dummy.m */,
+				E0CE27E6D5E4E786938794E41B30D7A8 /* Pods-HogeLabelSampleProjectTests-Info.plist */,
+				F1C75643DCB54F9B848BA60F176EB499 /* Pods-HogeLabelSampleProjectTests-umbrella.h */,
+				45088B92B6B46FB7592A037A2D3A6896 /* Pods-HogeLabelSampleProjectTests.debug.xcconfig */,
+				5708D0A9F4424ABBB58AF4D87DAD18A4 /* Pods-HogeLabelSampleProjectTests.release.xcconfig */,
+			);
+			name = "Pods-HogeLabelSampleProjectTests";
+			path = "Target Support Files/Pods-HogeLabelSampleProjectTests";
+			sourceTree = "<group>";
+		};
+		BC2CCC923A4E97924F86A7C8DE49FBE0 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F82577CDF85198D0A0A0ABABA604160C /* HogeLabel.modulemap */,
+				5E3C3CF790AE0912C55329F1CF63E33D /* HogeLabel-dummy.m */,
+				AD720B1471A2ED80B9BEDFCC83C1A589 /* HogeLabel-Info.plist */,
+				CA6BFC87F3CEEC81CEEA38E75FC1F037 /* HogeLabel-prefix.pch */,
+				261CA9F082613F94863CFD677EF8890B /* HogeLabel-umbrella.h */,
+				EA3B516D1815384618EB0F26D4818829 /* HogeLabel.debug.xcconfig */,
+				8081BB2D3E0B39972B81254F2CE607DA /* HogeLabel.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/HogeLabel";
+			sourceTree = "<group>";
+		};
+		CC2AEC70F62F0CC915D5A49239EFEDBA /* Pods-HogeLabelSampleProject */ = {
+			isa = PBXGroup;
+			children = (
+				91A7D12163A899FCB29903303331261A /* Pods-HogeLabelSampleProject.modulemap */,
+				EEB0FEED57EFB6BD341F744BB615026F /* Pods-HogeLabelSampleProject-acknowledgements.markdown */,
+				9FF8F6FCCB8C791CEC59C8B456982AB1 /* Pods-HogeLabelSampleProject-acknowledgements.plist */,
+				0DE670FE64A6960C38C0CB8CC71A2046 /* Pods-HogeLabelSampleProject-dummy.m */,
+				D46724D5F000CA06E0AC2635F00D73F8 /* Pods-HogeLabelSampleProject-frameworks.sh */,
+				643149127F7E66690224D52757E052AE /* Pods-HogeLabelSampleProject-Info.plist */,
+				21272ADC6015F74CCCDD11F7597476BD /* Pods-HogeLabelSampleProject-umbrella.h */,
+				E7B44DC9FA1051D7E60A09975B696C63 /* Pods-HogeLabelSampleProject.debug.xcconfig */,
+				C2649F2E6C88658F2663684D466E77EC /* Pods-HogeLabelSampleProject.release.xcconfig */,
+			);
+			name = "Pods-HogeLabelSampleProject";
+			path = "Target Support Files/Pods-HogeLabelSampleProject";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				E4ED5F91E5962CDEE4D71F2AC152865C /* Pods */,
+				8246CFB57F069CE4DEEB63B0DBFE1BD1 /* Products */,
+				5D55F96486DA4F2D8A6D0C582515E0B9 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D6A376F9E53D2C9408DA33FEBE0AA537 /* HogeLabel */ = {
+			isa = PBXGroup;
+			children = (
+				26CD1E1BB94BCBB8F5DBE84DD765C4F8 /* HogeLabel.h */,
+				54F744B387CA129E41EABBF1AA652F3D /* HogeLabel.swift */,
+				BC2CCC923A4E97924F86A7C8DE49FBE0 /* Support Files */,
+			);
+			name = HogeLabel;
+			path = HogeLabel;
+			sourceTree = "<group>";
+		};
+		E4ED5F91E5962CDEE4D71F2AC152865C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D6A376F9E53D2C9408DA33FEBE0AA537 /* HogeLabel */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		095CE1B8BCE737F88B1004C33378E55C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				004AF98392E05300E6F6EC5BCD1EDDB6 /* Pods-HogeLabelSampleProjectTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0DFFA9F4FFC1D82C583608A5D2186015 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D4E209C61B6D59E7C6C490665841D3E /* Pods-HogeLabelSampleProject-HogeLabelSampleProjectUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97352DA7D01A42F81464CA899C641890 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27373E211E3DC6CDC6C847F37309E386 /* Pods-HogeLabelSampleProject-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4175FB4B61CEC7E462D591EF772BF2D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D829A6204C4908114282043C289D8FF5 /* HogeLabel.h in Headers */,
+				2AF0044294537D99807A4431F3975C35 /* HogeLabel-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		AF2E5A95DBB7F2795F5EC4CDF0A6F010 /* Pods-HogeLabelSampleProjectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 796486910CADC6F5EEF0C4E3E93A3039 /* Build configuration list for PBXNativeTarget "Pods-HogeLabelSampleProjectTests" */;
+			buildPhases = (
+				095CE1B8BCE737F88B1004C33378E55C /* Headers */,
+				2D2D5EA63761E7D958BE5C2FC4C0787B /* Sources */,
+				D8E072742336805486CACF5B8AC16742 /* Frameworks */,
+				8476D602A83079BA800729667143385B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				315819C17D8CB968F282A4FBDF541EC5 /* PBXTargetDependency */,
+			);
+			name = "Pods-HogeLabelSampleProjectTests";
+			productName = Pods_HogeLabelSampleProjectTests;
+			productReference = 472F437E2D7BBEB1F228B1C6F13A8633 /* Pods-HogeLabelSampleProjectTests */;
+			productType = "com.apple.product-type.framework";
+		};
+		D2E9821F2CFF110E9C99219D2DEC869E /* HogeLabel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CFFB9BAD10F57C9C8EDF6C60ECA8A5C /* Build configuration list for PBXNativeTarget "HogeLabel" */;
+			buildPhases = (
+				A4175FB4B61CEC7E462D591EF772BF2D /* Headers */,
+				E6DF7FE76245B7E4E55948352B034522 /* Sources */,
+				C5A66FF8FDC53C3A54A6C4FE4A075C6D /* Frameworks */,
+				CC979BB6E9FA8B73014514181D5C07CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HogeLabel;
+			productName = HogeLabel;
+			productReference = EEBA28FF2E468CB74EBFF288A70E4FAD /* HogeLabel */;
+			productType = "com.apple.product-type.framework";
+		};
+		F3D1EC6668BE5D5503DD5D862C9C5234 /* Pods-HogeLabelSampleProject-HogeLabelSampleProjectUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B463B161A756B52B2F6EDECC5FA7E439 /* Build configuration list for PBXNativeTarget "Pods-HogeLabelSampleProject-HogeLabelSampleProjectUITests" */;
+			buildPhases = (
+				0DFFA9F4FFC1D82C583608A5D2186015 /* Headers */,
+				536470B51FCC5411F4647238A1782A0C /* Sources */,
+				2B02B41FCFE6970EE215DC7F4CDC1EB3 /* Frameworks */,
+				F61023F498FB9E39972414364DBDE7BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				14DDA5D36F926CFD3F121D22104E50D0 /* PBXTargetDependency */,
+			);
+			name = "Pods-HogeLabelSampleProject-HogeLabelSampleProjectUITests";
+			productName = Pods_HogeLabelSampleProject_HogeLabelSampleProjectUITests;
+			productReference = 7EEDEB5BEC5C9B469114FCABF4987C72 /* Pods-HogeLabelSampleProject-HogeLabelSampleProjectUITests */;
+			productType = "com.apple.product-type.framework";
+		};
+		F77DBE2FE2929338A048B76A8638EC90 /* Pods-HogeLabelSampleProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA6922A9A06AE284C0E967C7F1337D03 /* Build configuration list for PBXNativeTarget "Pods-HogeLabelSampleProject" */;
+			buildPhases = (
+				97352DA7D01A42F81464CA899C641890 /* Headers */,
+				D06EB434E2C1E2F795D4E9404FA38E98 /* Sources */,
+				729AF94D2F113B19646344443AB75C60 /* Frameworks */,
+				F765665BF4774153EBB190E258F211DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0FD57171FFCCC0056AF1F61EF0C9FEB1 /* PBXTargetDependency */,
+			);
+			name = "Pods-HogeLabelSampleProject";
+			productName = Pods_HogeLabelSampleProject;
+			productReference = 4C246EFFF2E60200AD2A07B062F9C430 /* Pods-HogeLabelSampleProject */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 8246CFB57F069CE4DEEB63B0DBFE1BD1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D2E9821F2CFF110E9C99219D2DEC869E /* HogeLabel */,
+				F77DBE2FE2929338A048B76A8638EC90 /* Pods-HogeLabelSampleProject */,
+				F3D1EC6668BE5D5503DD5D862C9C5234 /* Pods-HogeLabelSampleProject-HogeLabelSampleProjectUITests */,
+				AF2E5A95DBB7F2795F5EC4CDF0A6F010 /* Pods-HogeLabelSampleProjectTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8476D602A83079BA800729667143385B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC979BB6E9FA8B73014514181D5C07CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F61023F498FB9E39972414364DBDE7BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F765665BF4774153EBB190E258F211DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2D2D5EA63761E7D958BE5C2FC4C0787B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43AD1F024D2270E906441FDE568DC132 /* Pods-HogeLabelSampleProjectTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		536470B51FCC5411F4647238A1782A0C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2E1F350B8AB897DEAAA95C571379B35 /* Pods-HogeLabelSampleProject-HogeLabelSampleProjectUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D06EB434E2C1E2F795D4E9404FA38E98 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E9535A94519E8707FE1A4689986A304 /* Pods-HogeLabelSampleProject-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6DF7FE76245B7E4E55948352B034522 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8744B3664F19ACC5004BB5652C3B8C6 /* HogeLabel.swift in Sources */,
+				6F2CB54C7214DB7E4288F0D1A8007931 /* HogeLabel-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0FD57171FFCCC0056AF1F61EF0C9FEB1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = HogeLabel;
+			target = D2E9821F2CFF110E9C99219D2DEC869E /* HogeLabel */;
+			targetProxy = FF76419DA2B16A9FC331158F6431710D /* PBXContainerItemProxy */;
+		};
+		14DDA5D36F926CFD3F121D22104E50D0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = HogeLabel;
+			target = D2E9821F2CFF110E9C99219D2DEC869E /* HogeLabel */;
+			targetProxy = 9616B6083F03093CEB6FBFBDD2BB0FC0 /* PBXContainerItemProxy */;
+		};
+		315819C17D8CB968F282A4FBDF541EC5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-HogeLabelSampleProject";
+			target = F77DBE2FE2929338A048B76A8638EC90 /* Pods-HogeLabelSampleProject */;
+			targetProxy = DDDD5DF481762A391DAA5265B230CF27 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1A0C3B928D8B7787D6287DDC36FB6D46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E7B44DC9FA1051D7E60A09975B696C63 /* Pods-HogeLabelSampleProject.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HogeLabelSampleProject/Pods-HogeLabelSampleProject-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HogeLabelSampleProject/Pods-HogeLabelSampleProject.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		1F84E580C9979B9612F6F738C9FBE8A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8081BB2D3E0B39972B81254F2CE607DA /* HogeLabel.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/HogeLabel/HogeLabel-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HogeLabel/HogeLabel-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/HogeLabel/HogeLabel.modulemap";
+				PRODUCT_MODULE_NAME = HogeLabel;
+				PRODUCT_NAME = HogeLabel;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		257409A5FA4AB0539BDEA8326A35C47F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 45088B92B6B46FB7592A037A2D3A6896 /* Pods-HogeLabelSampleProjectTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HogeLabelSampleProjectTests/Pods-HogeLabelSampleProjectTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HogeLabelSampleProjectTests/Pods-HogeLabelSampleProjectTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4214E6946993DF02ED98D89047C64016 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		5B2C57A56505EB8D4A249A1E364637E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 63E5D897A1EA1E915BEE7C8FF27EDC2C /* Pods-HogeLabelSampleProject-HogeLabelSampleProjectUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HogeLabelSampleProject-HogeLabelSampleProjectUITests/Pods-HogeLabelSampleProject-HogeLabelSampleProjectUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HogeLabelSampleProject-HogeLabelSampleProjectUITests/Pods-HogeLabelSampleProject-HogeLabelSampleProjectUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		685391F731DED03C91946148DBA9A0DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C2649F2E6C88658F2663684D466E77EC /* Pods-HogeLabelSampleProject.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HogeLabelSampleProject/Pods-HogeLabelSampleProject-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HogeLabelSampleProject/Pods-HogeLabelSampleProject.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6BB5D4C156515F1538DC56F1B7084550 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA3B516D1815384618EB0F26D4818829 /* HogeLabel.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/HogeLabel/HogeLabel-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HogeLabel/HogeLabel-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/HogeLabel/HogeLabel.modulemap";
+				PRODUCT_MODULE_NAME = HogeLabel;
+				PRODUCT_NAME = HogeLabel;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7C88F35E1B63FF756F432533D39C6C20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8560AB28FA04DC079CA199982D3A2D2C /* Pods-HogeLabelSampleProject-HogeLabelSampleProjectUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HogeLabelSampleProject-HogeLabelSampleProjectUITests/Pods-HogeLabelSampleProject-HogeLabelSampleProjectUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HogeLabelSampleProject-HogeLabelSampleProjectUITests/Pods-HogeLabelSampleProject-HogeLabelSampleProjectUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CD85FD90473CFBE797E4264E7BBC70AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		E7CB8DABD3DDD1B5348C3107C45E6092 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5708D0A9F4424ABBB58AF4D87DAD18A4 /* Pods-HogeLabelSampleProjectTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HogeLabelSampleProjectTests/Pods-HogeLabelSampleProjectTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HogeLabelSampleProjectTests/Pods-HogeLabelSampleProjectTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4214E6946993DF02ED98D89047C64016 /* Debug */,
+				CD85FD90473CFBE797E4264E7BBC70AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4CFFB9BAD10F57C9C8EDF6C60ECA8A5C /* Build configuration list for PBXNativeTarget "HogeLabel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BB5D4C156515F1538DC56F1B7084550 /* Debug */,
+				1F84E580C9979B9612F6F738C9FBE8A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		796486910CADC6F5EEF0C4E3E93A3039 /* Build configuration list for PBXNativeTarget "Pods-HogeLabelSampleProjectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				257409A5FA4AB0539BDEA8326A35C47F /* Debug */,
+				E7CB8DABD3DDD1B5348C3107C45E6092 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B463B161A756B52B2F6EDECC5FA7E439 /* Build configuration list for PBXNativeTarget "Pods-HogeLabelSampleProject-HogeLabelSampleProjectUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7C88F35E1B63FF756F432533D39C6C20 /* Debug */,
+				5B2C57A56505EB8D4A249A1E364637E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA6922A9A06AE284C0E967C7F1337D03 /* Build configuration list for PBXNativeTarget "Pods-HogeLabelSampleProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A0C3B928D8B7787D6287DDC36FB6D46 /* Debug */,
+				685391F731DED03C91946148DBA9A0DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

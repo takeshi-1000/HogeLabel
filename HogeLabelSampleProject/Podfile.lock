@@ -1,0 +1,21 @@
+PODS:
+  - HogeLabel (1.0.2)
+
+DEPENDENCIES:
+  - HogeLabel (from `https://github.com/takeshi-1000/HogeLabel`)
+
+EXTERNAL SOURCES:
+  HogeLabel:
+    :git: https://github.com/takeshi-1000/HogeLabel
+
+CHECKOUT OPTIONS:
+  HogeLabel:
+    :commit: 7cbbae827b0df2e16041c5da8aaaef92d1b1a61a
+    :git: https://github.com/takeshi-1000/HogeLabel
+
+SPEC CHECKSUMS:
+  HogeLabel: 0decff61243222d4b006d23e4c044974009f8a83
+
+PODFILE CHECKSUM: 6576100f533524b18d3d325fa27afe3da2d66fb6
+
+COCOAPODS: 1.11.2

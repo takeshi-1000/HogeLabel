@@ -1,0 +1,6 @@
+framework module Pods_HogeLabelSampleProjectTests {
+  umbrella header "Pods-HogeLabelSampleProjectTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

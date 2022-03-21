@@ -1,0 +1,764 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18031A6E8B8DE5D1E8D81427 /* Pods_HogeLabelSampleProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93AEC4B4E3D098B466765F78 /* Pods_HogeLabelSampleProject.framework */; };
+		AFD2BDE9ACC833D2C2A62F7C /* Pods_HogeLabelSampleProject_HogeLabelSampleProjectUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13D607A1FBF16F0B35A3F739 /* Pods_HogeLabelSampleProject_HogeLabelSampleProjectUITests.framework */; };
+		EC77854DAC59F66D6E5ECF54 /* Pods_HogeLabelSampleProjectTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E17EB252EA3546EAFF5B2A0D /* Pods_HogeLabelSampleProjectTests.framework */; };
+		F8BEC4B127E83DFB00D8C9B5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8BEC4B027E83DFB00D8C9B5 /* AppDelegate.swift */; };
+		F8BEC4B327E83DFB00D8C9B5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8BEC4B227E83DFB00D8C9B5 /* SceneDelegate.swift */; };
+		F8BEC4B527E83DFB00D8C9B5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8BEC4B427E83DFB00D8C9B5 /* ViewController.swift */; };
+		F8BEC4B827E83DFC00D8C9B5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8BEC4B627E83DFC00D8C9B5 /* Main.storyboard */; };
+		F8BEC4BA27E83DFD00D8C9B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8BEC4B927E83DFD00D8C9B5 /* Assets.xcassets */; };
+		F8BEC4BD27E83DFD00D8C9B5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8BEC4BB27E83DFD00D8C9B5 /* LaunchScreen.storyboard */; };
+		F8BEC4C827E83DFE00D8C9B5 /* HogeLabelSampleProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8BEC4C727E83DFE00D8C9B5 /* HogeLabelSampleProjectTests.swift */; };
+		F8BEC4D227E83DFE00D8C9B5 /* HogeLabelSampleProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8BEC4D127E83DFE00D8C9B5 /* HogeLabelSampleProjectUITests.swift */; };
+		F8BEC4D427E83DFE00D8C9B5 /* HogeLabelSampleProjectUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8BEC4D327E83DFE00D8C9B5 /* HogeLabelSampleProjectUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F8BEC4C427E83DFE00D8C9B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F8BEC4A527E83DFB00D8C9B5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F8BEC4AC27E83DFB00D8C9B5;
+			remoteInfo = HogeLabelSampleProject;
+		};
+		F8BEC4CE27E83DFE00D8C9B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F8BEC4A527E83DFB00D8C9B5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F8BEC4AC27E83DFB00D8C9B5;
+			remoteInfo = HogeLabelSampleProject;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		13D607A1FBF16F0B35A3F739 /* Pods_HogeLabelSampleProject_HogeLabelSampleProjectUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HogeLabelSampleProject_HogeLabelSampleProjectUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B2D560D66DD93DE01D50F6E /* Pods-HogeLabelSampleProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HogeLabelSampleProject.debug.xcconfig"; path = "Target Support Files/Pods-HogeLabelSampleProject/Pods-HogeLabelSampleProject.debug.xcconfig"; sourceTree = "<group>"; };
+		4BF5836BE9E948FD9661008C /* Pods-HogeLabelSampleProject-HogeLabelSampleProjectUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HogeLabelSampleProject-HogeLabelSampleProjectUITests.release.xcconfig"; path = "Target Support Files/Pods-HogeLabelSampleProject-HogeLabelSampleProjectUITests/Pods-HogeLabelSampleProject-HogeLabelSampleProjectUITests.release.xcconfig"; sourceTree = "<group>"; };
+		7E20EB5C3830001A8C143493 /* Pods-HogeLabelSampleProjectTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HogeLabelSampleProjectTests.debug.xcconfig"; path = "Target Support Files/Pods-HogeLabelSampleProjectTests/Pods-HogeLabelSampleProjectTests.debug.xcconfig"; sourceTree = "<group>"; };
+		849619BD70F5E4CD39712AF8 /* Pods-HogeLabelSampleProject-HogeLabelSampleProjectUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HogeLabelSampleProject-HogeLabelSampleProjectUITests.debug.xcconfig"; path = "Target Support Files/Pods-HogeLabelSampleProject-HogeLabelSampleProjectUITests/Pods-HogeLabelSampleProject-HogeLabelSampleProjectUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		93AEC4B4E3D098B466765F78 /* Pods_HogeLabelSampleProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HogeLabelSampleProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AC0413E44BEE9278D0DAD35 /* Pods-HogeLabelSampleProjectTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HogeLabelSampleProjectTests.release.xcconfig"; path = "Target Support Files/Pods-HogeLabelSampleProjectTests/Pods-HogeLabelSampleProjectTests.release.xcconfig"; sourceTree = "<group>"; };
+		E17EB252EA3546EAFF5B2A0D /* Pods_HogeLabelSampleProjectTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HogeLabelSampleProjectTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED2F337CC0DCE07C2A20F4CF /* Pods-HogeLabelSampleProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HogeLabelSampleProject.release.xcconfig"; path = "Target Support Files/Pods-HogeLabelSampleProject/Pods-HogeLabelSampleProject.release.xcconfig"; sourceTree = "<group>"; };
+		F8BEC4AD27E83DFB00D8C9B5 /* HogeLabelSampleProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HogeLabelSampleProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8BEC4B027E83DFB00D8C9B5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F8BEC4B227E83DFB00D8C9B5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F8BEC4B427E83DFB00D8C9B5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F8BEC4B727E83DFC00D8C9B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F8BEC4B927E83DFD00D8C9B5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F8BEC4BC27E83DFD00D8C9B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F8BEC4BE27E83DFD00D8C9B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F8BEC4C327E83DFE00D8C9B5 /* HogeLabelSampleProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HogeLabelSampleProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8BEC4C727E83DFE00D8C9B5 /* HogeLabelSampleProjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HogeLabelSampleProjectTests.swift; sourceTree = "<group>"; };
+		F8BEC4CD27E83DFE00D8C9B5 /* HogeLabelSampleProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HogeLabelSampleProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8BEC4D127E83DFE00D8C9B5 /* HogeLabelSampleProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HogeLabelSampleProjectUITests.swift; sourceTree = "<group>"; };
+		F8BEC4D327E83DFE00D8C9B5 /* HogeLabelSampleProjectUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HogeLabelSampleProjectUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F8BEC4AA27E83DFB00D8C9B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18031A6E8B8DE5D1E8D81427 /* Pods_HogeLabelSampleProject.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8BEC4C027E83DFE00D8C9B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC77854DAC59F66D6E5ECF54 /* Pods_HogeLabelSampleProjectTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8BEC4CA27E83DFE00D8C9B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFD2BDE9ACC833D2C2A62F7C /* Pods_HogeLabelSampleProject_HogeLabelSampleProjectUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		733F2E130C8E077254AF260D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				93AEC4B4E3D098B466765F78 /* Pods_HogeLabelSampleProject.framework */,
+				13D607A1FBF16F0B35A3F739 /* Pods_HogeLabelSampleProject_HogeLabelSampleProjectUITests.framework */,
+				E17EB252EA3546EAFF5B2A0D /* Pods_HogeLabelSampleProjectTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		78CAE16F114A18098F567D41 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3B2D560D66DD93DE01D50F6E /* Pods-HogeLabelSampleProject.debug.xcconfig */,
+				ED2F337CC0DCE07C2A20F4CF /* Pods-HogeLabelSampleProject.release.xcconfig */,
+				849619BD70F5E4CD39712AF8 /* Pods-HogeLabelSampleProject-HogeLabelSampleProjectUITests.debug.xcconfig */,
+				4BF5836BE9E948FD9661008C /* Pods-HogeLabelSampleProject-HogeLabelSampleProjectUITests.release.xcconfig */,
+				7E20EB5C3830001A8C143493 /* Pods-HogeLabelSampleProjectTests.debug.xcconfig */,
+				9AC0413E44BEE9278D0DAD35 /* Pods-HogeLabelSampleProjectTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F8BEC4A427E83DFB00D8C9B5 = {
+			isa = PBXGroup;
+			children = (
+				F8BEC4AF27E83DFB00D8C9B5 /* HogeLabelSampleProject */,
+				F8BEC4C627E83DFE00D8C9B5 /* HogeLabelSampleProjectTests */,
+				F8BEC4D027E83DFE00D8C9B5 /* HogeLabelSampleProjectUITests */,
+				F8BEC4AE27E83DFB00D8C9B5 /* Products */,
+				78CAE16F114A18098F567D41 /* Pods */,
+				733F2E130C8E077254AF260D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F8BEC4AE27E83DFB00D8C9B5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F8BEC4AD27E83DFB00D8C9B5 /* HogeLabelSampleProject.app */,
+				F8BEC4C327E83DFE00D8C9B5 /* HogeLabelSampleProjectTests.xctest */,
+				F8BEC4CD27E83DFE00D8C9B5 /* HogeLabelSampleProjectUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F8BEC4AF27E83DFB00D8C9B5 /* HogeLabelSampleProject */ = {
+			isa = PBXGroup;
+			children = (
+				F8BEC4B027E83DFB00D8C9B5 /* AppDelegate.swift */,
+				F8BEC4B227E83DFB00D8C9B5 /* SceneDelegate.swift */,
+				F8BEC4B427E83DFB00D8C9B5 /* ViewController.swift */,
+				F8BEC4B627E83DFC00D8C9B5 /* Main.storyboard */,
+				F8BEC4B927E83DFD00D8C9B5 /* Assets.xcassets */,
+				F8BEC4BB27E83DFD00D8C9B5 /* LaunchScreen.storyboard */,
+				F8BEC4BE27E83DFD00D8C9B5 /* Info.plist */,
+			);
+			path = HogeLabelSampleProject;
+			sourceTree = "<group>";
+		};
+		F8BEC4C627E83DFE00D8C9B5 /* HogeLabelSampleProjectTests */ = {
+			isa = PBXGroup;
+			children = (
+				F8BEC4C727E83DFE00D8C9B5 /* HogeLabelSampleProjectTests.swift */,
+			);
+			path = HogeLabelSampleProjectTests;
+			sourceTree = "<group>";
+		};
+		F8BEC4D027E83DFE00D8C9B5 /* HogeLabelSampleProjectUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F8BEC4D127E83DFE00D8C9B5 /* HogeLabelSampleProjectUITests.swift */,
+				F8BEC4D327E83DFE00D8C9B5 /* HogeLabelSampleProjectUITestsLaunchTests.swift */,
+			);
+			path = HogeLabelSampleProjectUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F8BEC4AC27E83DFB00D8C9B5 /* HogeLabelSampleProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8BEC4D727E83DFE00D8C9B5 /* Build configuration list for PBXNativeTarget "HogeLabelSampleProject" */;
+			buildPhases = (
+				84259F6D40E37A2ADFF061DC /* [CP] Check Pods Manifest.lock */,
+				F8BEC4A927E83DFB00D8C9B5 /* Sources */,
+				F8BEC4AA27E83DFB00D8C9B5 /* Frameworks */,
+				F8BEC4AB27E83DFB00D8C9B5 /* Resources */,
+				A5DA29E5A8D2F8B63A55B607 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HogeLabelSampleProject;
+			productName = HogeLabelSampleProject;
+			productReference = F8BEC4AD27E83DFB00D8C9B5 /* HogeLabelSampleProject.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F8BEC4C227E83DFE00D8C9B5 /* HogeLabelSampleProjectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8BEC4DA27E83DFE00D8C9B5 /* Build configuration list for PBXNativeTarget "HogeLabelSampleProjectTests" */;
+			buildPhases = (
+				6741677F4194A1D95D6E27D3 /* [CP] Check Pods Manifest.lock */,
+				F8BEC4BF27E83DFE00D8C9B5 /* Sources */,
+				F8BEC4C027E83DFE00D8C9B5 /* Frameworks */,
+				F8BEC4C127E83DFE00D8C9B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F8BEC4C527E83DFE00D8C9B5 /* PBXTargetDependency */,
+			);
+			name = HogeLabelSampleProjectTests;
+			productName = HogeLabelSampleProjectTests;
+			productReference = F8BEC4C327E83DFE00D8C9B5 /* HogeLabelSampleProjectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F8BEC4CC27E83DFE00D8C9B5 /* HogeLabelSampleProjectUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8BEC4DD27E83DFE00D8C9B5 /* Build configuration list for PBXNativeTarget "HogeLabelSampleProjectUITests" */;
+			buildPhases = (
+				9BBC8DB62AEB704528530733 /* [CP] Check Pods Manifest.lock */,
+				F8BEC4C927E83DFE00D8C9B5 /* Sources */,
+				F8BEC4CA27E83DFE00D8C9B5 /* Frameworks */,
+				F8BEC4CB27E83DFE00D8C9B5 /* Resources */,
+				6B3AA3D9ACA0B2DD3533B57B /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F8BEC4CF27E83DFE00D8C9B5 /* PBXTargetDependency */,
+			);
+			name = HogeLabelSampleProjectUITests;
+			productName = HogeLabelSampleProjectUITests;
+			productReference = F8BEC4CD27E83DFE00D8C9B5 /* HogeLabelSampleProjectUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F8BEC4A527E83DFB00D8C9B5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					F8BEC4AC27E83DFB00D8C9B5 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					F8BEC4C227E83DFE00D8C9B5 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = F8BEC4AC27E83DFB00D8C9B5;
+					};
+					F8BEC4CC27E83DFE00D8C9B5 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = F8BEC4AC27E83DFB00D8C9B5;
+					};
+				};
+			};
+			buildConfigurationList = F8BEC4A827E83DFB00D8C9B5 /* Build configuration list for PBXProject "HogeLabelSampleProject" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F8BEC4A427E83DFB00D8C9B5;
+			productRefGroup = F8BEC4AE27E83DFB00D8C9B5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F8BEC4AC27E83DFB00D8C9B5 /* HogeLabelSampleProject */,
+				F8BEC4C227E83DFE00D8C9B5 /* HogeLabelSampleProjectTests */,
+				F8BEC4CC27E83DFE00D8C9B5 /* HogeLabelSampleProjectUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F8BEC4AB27E83DFB00D8C9B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8BEC4BD27E83DFD00D8C9B5 /* LaunchScreen.storyboard in Resources */,
+				F8BEC4BA27E83DFD00D8C9B5 /* Assets.xcassets in Resources */,
+				F8BEC4B827E83DFC00D8C9B5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8BEC4C127E83DFE00D8C9B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8BEC4CB27E83DFE00D8C9B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6741677F4194A1D95D6E27D3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HogeLabelSampleProjectTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6B3AA3D9ACA0B2DD3533B57B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HogeLabelSampleProject-HogeLabelSampleProjectUITests/Pods-HogeLabelSampleProject-HogeLabelSampleProjectUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HogeLabelSampleProject-HogeLabelSampleProjectUITests/Pods-HogeLabelSampleProject-HogeLabelSampleProjectUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HogeLabelSampleProject-HogeLabelSampleProjectUITests/Pods-HogeLabelSampleProject-HogeLabelSampleProjectUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		84259F6D40E37A2ADFF061DC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HogeLabelSampleProject-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9BBC8DB62AEB704528530733 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HogeLabelSampleProject-HogeLabelSampleProjectUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A5DA29E5A8D2F8B63A55B607 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HogeLabelSampleProject/Pods-HogeLabelSampleProject-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HogeLabelSampleProject/Pods-HogeLabelSampleProject-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HogeLabelSampleProject/Pods-HogeLabelSampleProject-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F8BEC4A927E83DFB00D8C9B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8BEC4B527E83DFB00D8C9B5 /* ViewController.swift in Sources */,
+				F8BEC4B127E83DFB00D8C9B5 /* AppDelegate.swift in Sources */,
+				F8BEC4B327E83DFB00D8C9B5 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8BEC4BF27E83DFE00D8C9B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8BEC4C827E83DFE00D8C9B5 /* HogeLabelSampleProjectTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8BEC4C927E83DFE00D8C9B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8BEC4D427E83DFE00D8C9B5 /* HogeLabelSampleProjectUITestsLaunchTests.swift in Sources */,
+				F8BEC4D227E83DFE00D8C9B5 /* HogeLabelSampleProjectUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F8BEC4C527E83DFE00D8C9B5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F8BEC4AC27E83DFB00D8C9B5 /* HogeLabelSampleProject */;
+			targetProxy = F8BEC4C427E83DFE00D8C9B5 /* PBXContainerItemProxy */;
+		};
+		F8BEC4CF27E83DFE00D8C9B5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F8BEC4AC27E83DFB00D8C9B5 /* HogeLabelSampleProject */;
+			targetProxy = F8BEC4CE27E83DFE00D8C9B5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F8BEC4B627E83DFC00D8C9B5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F8BEC4B727E83DFC00D8C9B5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F8BEC4BB27E83DFD00D8C9B5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F8BEC4BC27E83DFD00D8C9B5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F8BEC4D527E83DFE00D8C9B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F8BEC4D627E83DFE00D8C9B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F8BEC4D827E83DFE00D8C9B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B2D560D66DD93DE01D50F6E /* Pods-HogeLabelSampleProject.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q7R5Q67FPX;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HogeLabelSampleProject/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kt.HogeLabelSampleProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F8BEC4D927E83DFE00D8C9B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED2F337CC0DCE07C2A20F4CF /* Pods-HogeLabelSampleProject.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q7R5Q67FPX;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HogeLabelSampleProject/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kt.HogeLabelSampleProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F8BEC4DB27E83DFE00D8C9B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E20EB5C3830001A8C143493 /* Pods-HogeLabelSampleProjectTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q7R5Q67FPX;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kt.HogeLabelSampleProjectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HogeLabelSampleProject.app/HogeLabelSampleProject";
+			};
+			name = Debug;
+		};
+		F8BEC4DC27E83DFE00D8C9B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9AC0413E44BEE9278D0DAD35 /* Pods-HogeLabelSampleProjectTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q7R5Q67FPX;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kt.HogeLabelSampleProjectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HogeLabelSampleProject.app/HogeLabelSampleProject";
+			};
+			name = Release;
+		};
+		F8BEC4DE27E83DFE00D8C9B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 849619BD70F5E4CD39712AF8 /* Pods-HogeLabelSampleProject-HogeLabelSampleProjectUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q7R5Q67FPX;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kt.HogeLabelSampleProjectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HogeLabelSampleProject;
+			};
+			name = Debug;
+		};
+		F8BEC4DF27E83DFE00D8C9B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4BF5836BE9E948FD9661008C /* Pods-HogeLabelSampleProject-HogeLabelSampleProjectUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q7R5Q67FPX;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kt.HogeLabelSampleProjectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HogeLabelSampleProject;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F8BEC4A827E83DFB00D8C9B5 /* Build configuration list for PBXProject "HogeLabelSampleProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8BEC4D527E83DFE00D8C9B5 /* Debug */,
+				F8BEC4D627E83DFE00D8C9B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F8BEC4D727E83DFE00D8C9B5 /* Build configuration list for PBXNativeTarget "HogeLabelSampleProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8BEC4D827E83DFE00D8C9B5 /* Debug */,
+				F8BEC4D927E83DFE00D8C9B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F8BEC4DA27E83DFE00D8C9B5 /* Build configuration list for PBXNativeTarget "HogeLabelSampleProjectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8BEC4DB27E83DFE00D8C9B5 /* Debug */,
+				F8BEC4DC27E83DFE00D8C9B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F8BEC4DD27E83DFE00D8C9B5 /* Build configuration list for PBXNativeTarget "HogeLabelSampleProjectUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8BEC4DE27E83DFE00D8C9B5 /* Debug */,
+				F8BEC4DF27E83DFE00D8C9B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F8BEC4A527E83DFB00D8C9B5 /* Project object */;
+}
